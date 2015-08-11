@@ -1,0 +1,36 @@
+﻿*{
+    margin:0;
+    padding:0;
+    list-style: outside none none;
+    font-size: 12px;
+    font-family: "Microsoft Kaiti";
+}
+body {
+	/* BACKGROUND: url(../images/bj.jpg) #f6f6f6 x-repeat; */
+	/*TEXT-ALIGN: center; IE 居中*/
+	background-color: #f2f2f2;
+	color: #333333; 
+	font-size: 12px; 
+}
+ul{
+    list-style-type:none;
+}
+li{ float: left;}
+
+img {
+	border:none;
+}
+a{
+    text-decoration:none;
+	color: #333333;
+	cursor: pointer;
+}
+a:hover {
+	color: #006f94; text-decoration: none
+}
+.clear {
+	clear: both
+}
+/*清除浮动*/
+.clearfix:after{content: "."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix{zoom:1;}

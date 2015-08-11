@@ -1,0 +1,90 @@
+﻿.head{background: url("../images/head_bg.jpg") repeat-x;}
+.head .top { width: 1004px; height: 65px; margin: 0px auto; }
+.head .top .logo { width: 500px; height: 34px; float: left; margin-top: 15px; }
+.head .top .logo .tp { float: left; }
+.head .top .logo h1 a { font-size: 15px; color: #333; padding-left: 5px; }
+
+.head .top .top_rg {display: inline-block; height: 25px; line-height: 25px; margin: 20px 20px 0 0; float: right; text-align: right;}
+.head .top .top_rg .Consultation { width: 130px; height: 23px; float: left; text-align: left; margin-right: 10px; position: relative; margin-top: 10px; color:#002685;}
+.head .top .top_rg .Consultation .sp1{font-size: 18px; float: left; font-weight:bold;}
+.head .top .top_rg .Consultation .sp2{float: left;  position: relative;margin: -20px 0 0 -150px; }
+.head .top .top_rg a {margin: 0px 5px;}
+.head .nav{ width: 1004px; height: 50px; line-height: 50px; margin: 0px auto; position: relative; z-index: 99;}
+.head .nav ul{ width: 820px; float: left; }
+.head .nav ul li {display:inline-block; height:50px; line-height:50px; float:left;}
+.head .nav ul li a {display:inline-block; height:50px; padding:0 30px; font-size:14px; color:#4b4b4b; font-weight:bold; text-shadow:0 1px 0 #fff;}
+.nav .nav_menu1 {width:996px; height:380px; background:url(../images/nav_menu1_bg.png) no-repeat; position:absolute; left:-15px; top:49px; z-index:9999; line-height:20px; display:none;}
+.nav .nav_menu1 .nav_menu1_sub {width:980px; height:175px; margin:0 auto; padding-top:20px; display:none; position:relative; overflow:hidden;}
+.nav .nav_menu1 .nav_menu1_sub .nav_switch {position:absolute; left:0;}
+.nav .nav_menu1 .nav_menu1_sub .nav_switch02 {position:absolute; left:0;}
+.nav .nav_menu1 .nav_menu1_sub .navPrevNext {width:21px; height:68px; cursor:pointer; z-index:999; position:absolute; top:145px; display:none;}
+.nav .nav_menu1 .nav_menu1_sub .navPrev {left:2px;}
+.nav .nav_menu1 .nav_menu1_sub .navNext {right:0;}
+.nav .nav_menu1 .nav_menu1_sub .navPrev02 {left:2px;}
+.nav .nav_menu1 .nav_menu1_sub .navNext02 {right:0;}
+.nav .nav_menu1 .nav_menu1_sub .tab_cont {width:240px; height:230px; float:left; text-align:center; margin-left:10px;}
+.nav .nav_menu1 .nav_menu1_sub .tab_cont dl {text-align:center; padding:0 10px; padding-top:10px; }
+.nav .nav_menu1 .nav_menu1_sub .tab_cont dl dt a {font-size:14px; font-weight:bold; display:inline; padding:0; text-shadow:none; height:20px; line-height:20px; color:#b00;}
+.nav .nav_menu1 .nav_menu1_sub .tab_cont dl dt a:hover {background:none; text-decoration:underline;}
+.nav .nav_menu1 .nav_menu1_sub .tab_cont dl dd {margin-top:5px; text-align: center;}
+.nav .nav_menu1 .nav_menu1_sub .tab_cont .tab_lf {width:140px; float:left;}
+.nav .nav_menu1 .nav_menu1_sub .tab_cont .tab_rg {width:150px; float:left;}
+.nav .nav_menu1 .nav_menu1_sub .tab_cont dl dd p {width:100%; height:20px; *height:18px; *line-height:18px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.nav .nav_menu1 .nav_menu1_sub .tab_cont dl dd p a {display:inline; padding:0; font-size:12px; color:#666; font-weight:normal; text-shadow:none;}
+.nav .nav_menu1 .nav_menu1_sub .tab_cont dl dd p a:hover {background:none; color:#BB0000;}
+.nav .nav_menu1 .nav_menu1_sub .tab_list {width:2px; height:310px; float:left; background:url(../images/tab_list.png);}
+.nav .nav_menu1 .tab_title {width:984px; margin:20px 0 0 4px;}
+.nav .nav_menu1 .tab_title li {width:324px; height:35px; line-height:35px; text-align:center; margin-left:4px; float:left; font-size:14px; cursor:pointer;}
+.tab_active {color:#b00; font-weight:bold; text-shadow:0 1px 0 #fff; background:url(../images/nav_bg.png) no-repeat;}
+.nav .nav_menu3 {width:996px; height:360px; background:url(../images/nav_menu3_bg.png) no-repeat; position:absolute; left:-15px; top:49px; z-index:9999; line-height:20px; display:none;}
+.nav .nav_menu3 .nav_menu3_sub {width:980px; height:340px; margin:0 auto; overflow:hidden;}
+.nav .nav_menu3 .nav_menu3_sub .menu_cont {width:240px; height:230px; float:left; margin-left:10px; text-align: center;}
+.nav .nav_menu3 .nav_menu3_sub .menu_cont dl {padding:0 10px; margin-top:10px;}
+.nav .nav_menu3 .nav_menu3_sub .menu_cont dl p {height:20px; overflow:hidden; padding-top:10px; text-overflow:ellipsis; white-space:nowrap;}
+.nav .nav_menu3 .nav_menu3_sub .menu_cont dl dt {font-size:14px; font-weight:bold;}
+.nav .nav_menu3 .nav_menu3_sub .menu_cont dl dt a {color:#BB0000; display:inline; padding:0; text-shadow:none;}
+.nav .nav_menu3 .nav_menu3_sub .menu_cont dl dt a:hover {text-decoration:underline; background:none;}
+.nav .nav_menu3 .nav_menu3_sub .menu_cont dl dt img {margin-top:5px;}
+.nav .nav_menu3 .nav_menu3_sub .menu_cont dl dd {margin-top:10px;}
+.nav .nav_menu3 .nav_menu3_sub .menu_cont dl dd p {width:145px; height:20px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; float:left;}
+.nav .nav_menu3 .nav_menu3_sub .menu_cont dl dd a {display:inline; padding:0; font-size:12px; color:#666; font-weight:normal; text-shadow:none;}
+.nav .nav_menu3 .nav_menu3_sub .menu_cont dl dd a:hover {background:none; color:#BB0000;}
+.nav .nav_menu3 .nav_menu3_sub .menu_cont .ser_search {width:300px; height:30px; position:relative; margin-top:5px;}
+.nav .nav_menu3 .nav_menu3_sub .menu_cont .ser_search .ser_search_txt {width:220px; height:22px; line-height:22px; border:4px solid #d0d0d0; -webkit-border-radius:3px; border-radius:3px;}
+.nav .nav_menu3 .nav_menu3_sub .menu_cont .ser_search .ser_search_img {width:33px; height:33px; position:absolute; left:224px; top:-1px;}
+.nav .nav_menu3 .nav_menu3_sub .menu_list {width:2px; height:330px; margin-top:10px; float:left; background:url(../images/tab_list.png);}
+
+/*服务支持*/
+.nav .nav_service ul li{ margin-bottom: 20px;}
+.nav .nav_menu2 { background:#fff; position:absolute; top:49px; z-index:9999; padding: 20px; display:none;}
+.nav .nav_menu2 ul{ width: auto; }
+.nav .nav_menu2 ul li{ float: none; display: block; height: auto; line-height: 35px;}
+.nav .nav_menu2 ul li a{ color: #0a2e96; height: 30px; padding: 0;}
+
+/*关于我们*/
+.nav .nav_about{ width: 600px;}
+.nav .nav_menu2 ul li h1{ font-size: 18px;}
+.nav .nav_menu2 ul li p{ font-size: 28px; color: #f93; font-weight: bold; font-family: "Microsoft YaHei";}
+.nav .nav_about ul li span{ display: block; width: 200px; overflow:hidden; text-overflow:ellipsis; -o-text-overflow:ellipsis; white-space:nowrap;}
+
+
+/*查询*/
+.head .nav .search {width:176px; height:27px; float:right; margin-top:11px; background:url(../images/search_bg.png) no-repeat;}
+.head .nav .search .search_img {width:16px; height:15px; float:left; margin:7px 0 0 7px;}
+.head .nav .search .search_txt {border:none; width:140px; height:24px; line-height:24px; float:right; background:#f4f4f4; color:#666; margin:1px 12px 0 0;}
+
+
+
+/*foot*/
+.foot {width:100%; height:240px; background:url(../images/foot_bg.jpg) repeat-x;}
+.foot .foot_nav {width:1004px; margin:0 auto;}
+.foot .foot_nav dl {width:135px; margin-left:30px; margin-top:25px; float:left;}
+.foot .foot_nav dl dt a {font-size:14px; color:#333; font-weight:bold;}
+.foot .foot_nav dl dt a:hover {color:#BB0000;}
+.foot .foot_nav dl dd {margin-top:5px;}
+.foot .foot_nav dl dd ul li {height:20px; line-height:20px; float: none;}
+.foot .foot_nav dl dd ul li a img {margin-right:5px; margin-top:7px; float:left;}
+.foot .foot_copy {width:1004px; margin:10px auto 0 auto;}
+.foot .foot_copy .foot_copy_lf {float:left;}
+.foot .foot_copy .foot_copy_lf a {margin:0 5px;}
+.foot .foot_copy .foot_copy_rg {float:right;}

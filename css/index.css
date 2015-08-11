@@ -1,0 +1,91 @@
+.main .nav_function,.container,.classic_user{ width: 1100px; margin: 0 auto; height: auto; }
+
+.mainPhoto img{ width: 100%;}
+.main .nav_function{ margin-top: 50px; min-height: 150px;}
+.main .nav_function li{	height: 150px; background:url("../images/fbg.png") no-repeat; width: 31%; padding:25px 12px; }
+.main .nav_function li h2{color:#002685; line-height:20px;}
+.main .nav_function li img{float: left; padding:0 20px; width: 100px;}
+.main .nav_function li span{color: #F28A00; line-height:20px;}
+.function{ height: 150px; }
+#reel { position: relative;	width: 1100px; margin: 0 auto; height: 170px; border: 1px solid rgb(200, 200, 200);	border-radius: 5px;	background:#dedede !important; }
+.show_product{ overflow:hidden;	position: absolute; display: block; width: 1100px; height: 170px; }
+.pro_photo{	position: absolute;	top: 0px; left: 1100px; z-index: 0; }
+.currentnext{ z-index: 1; left: 0; 	animation:fadeOut 1s forwards; -webkit-animation:fadeOut 1s forwards; }
+#reel .prev { position: absolute; top: 65px; display: block; width: 45px; height: 40px; cursor: pointer; }
+#reel .prev:hover{ background: url(../images/reel-left.png) no-repeat; }
+#reel .next { position: absolute; top: 65px; right: 0; display: block; width: 45px; height: 40px; cursor: pointer; }
+#reel .next:hover{ background: url(../images/reel-right.png) no-repeat; }
+.container{ margin-top: 50px; margin-bottom: 50px; overflow: hidden;}
+.news{ float: left;	width: 340px; padding-right: 20px; height: auto; }
+.container_top{ border-bottom: 1px solid #dfdfdf; overflow: hidden;height: 25px;vertical-align: middle;}
+.container_top h1{ float: left; width: 150px;margin-top: 5px;}
+.container_top span{ color: #6191c1; padding-left: 10px;}
+.container_top .more{ float: right;	border:1px solid #dfdfdf; border-radius: 10px; width: 45px;	font-size: 10px; padding:2px 10px; }
+.container_top .more img{margin-right:5px;}
+.container_main{ border-bottom: 2px dotted #c7c7c7;  padding: 10px 10px; height: 80px; color: #4b4e6f;}
+.container_main img{ float: left; padding-right: 10px;}
+.container_main span{ color: red; }
+.container_main div{font-size: 12px;}
+.container_news div{position: relative; height: 15px;}
+.container_news span{ position: absolute; left: 0;}
+.container_news em{ position: absolute; right: 0; }
+.container_news li{float: none; border-bottom: 2px dotted #c7c7c7; padding: 10px 5px; color: #4b4e6f;}
+
+.classic_user{ height: auto; overflow: hidden; border:1px solid #d0d0d0; margin-bottom:10px;}
+.classic_user div{ background: #E6E6E6; font-weight: bold;}
+.classic_user .classic_title{ padding: 5px 5px; border-bottom:1px solid #d0d0d0;}
+
+.classic_img{width:1100px; margin: 0 auto; position:relative;}
+#demo5{width:1100px; height: 80px; text-align:center;overflow:hidden;position:relative;}
+.classic_img li{float:left;width: 136px; padding: 10px; background:#aacccc; margin-right:5px;}
+.classic_img ul{position:absolute;left:0;top:0;}
+
+
+.footer{ background: #d8d8d8; margin-top: 10px;}
+.footer_allnav{ overflow: hidden; width: 1100px; margin: 0 auto; height: auto; padding: 20px 0; padding-left: 50px;}
+.footer_allnav .footer_nav{ width: 160px; float: left; padding-left: 20px;}
+.footer_allnav .footer_nav li{ float: none; background: url("../images/libg.jpg") no-repeat 6px center; padding-left: 15%; line-height: 25px; color: #6a6a6a; }
+
+.copyright{ overflow: hidden; width: 1100px; margin: 0 auto; height: auto; padding: 20px 0;}
+.cr_left li{ border-right: 2px solid #606060; padding: 0 10px;}
+.cr_left li:last-child{border:none;}
+.cr_right {text-align: right;}
+/*
+.g-wrap {
+position: relative;
+margin: 0 auto;
+width: 1130px;
+height: 100%;
+overflow: hidden;
+}
+#subjects {
+height: 165px;
+background-color: #e0e2e4;
+}
+#subjects .g-wrap a {
+position: absolute;
+top: 0;
+left: 100%;
+width: 100%;
+height: 100%;
+overflow: hidden;
+-webkit-opacity: 1;
+opacity: 1;
+display: block;
+-webkit-transition: left 300ms, -webkit-opacity 700ms;
+transition: left 300ms, opacity 700ms;
+}
+#subjects .g-wrap .item1 {
+z-index: 1;
+background-color: #c8c8c8;
+}
+#subjects .g-wrap .item2 {
+z-index: 2;
+left: 340px;
+background-color: yellow;
+}
+#subjects .g-wrap .item3{
+z-index: 3;
+left: 670px;
+background-color: green;
+}*/
